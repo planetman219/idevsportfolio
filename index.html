@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="../assets/javascript/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+</head>
+
+<body>
+    <img src="./images/astronaut-background.jpg" alt="" id="body-background-image">
+    <div id="body-background-blurrer"></div>
+
+    <nav>
+        <div>
+            <p class="size-24">i_Devs</p>
+        </div>
+        <div class="size-20 weight-600 flex-row gap-30 color-white">
+            <a href="#home" class="hover-white">HOME</a>
+            <a href="#about" class="hover-white">ABOUT ME</a>
+            <a href="#services" class="hover-white">SERVICES</a>
+            <a href="#projects" class="hover-white">PROJECTS</a>
+        </div>
+        <div class="flex-row gap-10 align-center">
+            <span class="material-symbols-outlined">call</span>
+            <a href="#contact" class="size-20 weight-600 hover-white color-white">CONTACT</a>
+        </div>
+    </nav>
+
+
+    <!-- home page -->
+    <section id="home"></section>
+    <div class="page-container grid-1fr-1fr gap-20">
+        <div class="flex-column justify-space-between padding-top-80">
+            <div class="flex-column gap-20">
+                <div>
+                    <div class="typing-text-container">
+                        <p class="size-24 typing-text typing-text-delay-1">Hello,</p>
+                    </div>
+                    <br>
+                    <div class="typing-text-container">
+                        <p class="size-64 weight-600 margin-top-nega-20 typing-text-delay-2">I'm Al Cedric</p>
+                    </div>
+                    <br>
+                    <div class="typing-text-container">
+                        <p class="size-42 color-light-blue margin-top-nega-10 typing-text-delay-4">Web Developer</p>
+                    </div>
+                </div>
+                <div class="hide-reveal">
+                    <p class="size-16">
+                        A Fresh Graduate in BSIT with 1+ years of hands-on experience in full <br>
+                        stack web development and database design, query and management. <br>
+                        Dedicated to serve business owners and students, <br>
+                        fulfilling their needs
+                    </p>
+                </div>
+            </div>
+            <div class="flex-column gap-10 padding-bottom-20 hide-reveal-delay-9">
+                <p>Find me on</p>
+                <div class="flex-row align-center gap-10">
+                    <img src="./images/Facebook-logo.png" alt="" class="img-50 hover-flip ">
+                    <img src="./images/Instagram-logo.png" alt="" class="img-50 hover-flip">
+                </div>
+            </div>
+        </div>
+        <div class="position-relative hide-reveal-delay-4">
+            <div class="circle-design"></div>
+            <img src="./images/no background.png" alt="" class="img-home-page">
+        </div>
+    </div>
+
+    <div class="wide-blur-bar"></div>
+
+
+    <!-- about page -->
+    <section id="about"></section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="page-container grid-1fr-1fr gap-20">
+        <div class="flex-column gap-30 padding-top-60">
+            <div class="flex-column gap-20">
+                <div>
+                    <p class="size-48 weight-600 margin-top-nega-20">about me</p>
+                    <br>
+                    <br>
+                    <p class="size-24 margin-top-nega-10">I’m Al Cedric Dario, a <span class="color-light-blue">full
+                            stack web developer</span> <br>
+                        from Tangub City, Misamis Occidental
+                    </p>
+                </div>
+                <div class="">
+                    <p class="size-14">
+                        I enjoy solving problems by developing web-based systems for
+                        the clients’ needs. I am a dedicated developer aiming to help
+                        students for their website projects and business owners for their
+                        business processes. I am also open for collaborations with fellow
+                        developers for efficient development and knowledge sharing.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="flex-column gap-10">
+                <div class="flex-row gap-10 align-center">
+                    <div class="small-blue-circle"></div>
+                    <p class="size-16">Tangub City, Misamis Occidental</p>
+                </div>
+                <div class="flex-row gap-10 align-center">
+                    <div class="small-blue-circle"></div>
+                    <p class="size-16">darioalcedric.webdev@gmail.com</p>
+                </div>
+                <div class="flex-row gap-10 align-center">
+                    <div class="small-blue-circle"></div>
+                    <p class="size-16">(+63) 981 597 8200</p>
+                </div>
+            </div>
+        </div>
+        <div class="position-relative flex-column justify-center align-center">
+            <img src="./images/1-11r.jpg" alt="" class="img-about-page">
+        </div>
+    </div>
+
+
+    <div class="wide-blur-bar"></div>
+
+
+
+    <div class="page-container flex-column align-center background-primary padding-top-60">
+        <div class="flex-column gap-30">
+            <p class="color-light-blue underline size-48">PROFESSIONAL SKILLS</p>
+            <div class="flex-column align-center">
+                <div class="size-32 flex-row align-center gap-20">
+                    <p>HTML</p>
+                    <div class="small-blue-circle"></div>
+                    <P>CSS</P>
+                    <div class="small-blue-circle"></div>
+                    <P>JavaScript</P>
+                </div>
+                <div class="size-32 flex-row align-center gap-20">
+                    <p>PHP</p>
+                    <div class="small-blue-circle"></div>
+                    <P>MySQL</P>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="flex-column align-center gap-30">
+            <p class="color-light-blue underline size-48">EDUCATION</p>
+            <div class="flex-column align-center">
+                <p class="size-24">Bachelor’s Degree in Information Technology, <span
+                        class="color-light-blue italic">Cum Laude</span> </p>
+                <p class="size-16">2019-2023 @ NMSCST, Labuyo</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="page-container background-primary padding-top-60">
+        <div class="flex-column gap-30">
+            <p class="color-light-blue underline size-48 text-align-center">WORK EXPERIENCE</p>
+            <br>
+            <div class="flex-column gap-20">
+                <div>
+                    <p class="size-24 weight-600 color-light-blue">Freelance Full Stack Web Developer</p>
+                    <p>02/2023 - Present</p>
+                </div>
+                <div class="size-12 flex-column gap-10">
+                    <div class="flex-row align-center gap-10">
+                        <div class="small-blue-circle"></div>
+                        <p>Interview clients about the business’ process and requirements</p>
+                    </div>
+                    <div class="flex-row align-center gap-10">
+                        <div class="small-blue-circle"></div>
+                        <p>Planning and designing the relational database tables, attributes and
+                            relationships using MySQL DBMS and SQLYog software</p>
+                    </div>
+                    <div class="flex-row align-center gap-10">
+                        <div class="small-blue-circle"></div>
+                        <p>Designing webpages using Figma</p>
+                    </div>
+                    <div class="flex-row align-center gap-10">
+                        <div class="small-blue-circle"></div>
+                        <p>Developing the webpages using HTML, CSS and JS</p>
+                    </div>
+                    <div class="flex-row align-center gap-10">
+                        <div class="small-blue-circle"></div>
+                        <p>Programming the backend part of the system using PHP and SQL Queries
+                            to the database</p>
+                    </div>
+                    <div class="flex-row align-center gap-10">
+                        <div class="small-blue-circle"></div>
+                        <p>System database maintenance in live host (hostinger)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- services page -->
+    <section id="services"></section>
+    <br>
+    <br>
+    <br>
+    <div class="page-container background-primary padding-top-60">
+        <div class="flex-column gap-30">
+            <div class="flex-column gap-10">
+                <p class="color-light-blue underline size-48 text-align-center">SERVICES</p>
+                <p class="text-align-center">Feel free to contact me for more information and queries on system
+                    development</p>
+            </div>
+            <br>
+            <div class="flex-row align-stretch justify-center gap-20">
+                <div class="padding-20 radius-10 flex-column align-center gap-10 background-primary-variant">
+                    <img src="./images/Instagram-Logo.png" alt="" class="large-image-profile ">
+                    <p class="size-24 weight-600">WEB DEVELOPMENT</p>
+                    <p class="size-14 text-align-center">We are open for Web/Mobile Applications, Static <br>
+                        & Dynamic Websites, E-commerce Stores, <br> Landing pages, and Capstone Projects.</p>
+                </div>
+
+                <div class="padding-20 radius-10 flex-column align-center gap-10 background-primary-variant">
+                    <img src="./images/Instagram-Logo.png" alt="" class="large-image-profile ">
+                    <p class="size-24 weight-600">WEB DESIGN</p>
+                    <p class="size-14 text-align-center">We are open for Web/Mobile Applications, Static <br>
+                        & Dynamic Websites, E-commerce Stores, <br> Landing pages, and Capstone Projects.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- projects page -->
+    <section id="projects"></section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="page-container height-auto">
+        <div class="flex-column gap-30 padding-top-60">
+            <div class="flex-column gap-20">
+                <div>
+                    <p class="size-48 weight-600 margin-top-nega-20">PROJECTS</p>
+                    <br>
+                    <p class="size-16 margin-top-nega-10">The following are some of the projects done with business
+                        owner <br> and students on their capstone projects
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="grid-1fr-1fr-1fr gap-20">
+            <div class="background-white">
+                <img src="./images/gama.png" alt="" class="project-card-image image-blur">
+                <div class="color-black padding-15-10">
+                    <div class="flex-column">
+                        <p class="size-20 weight-700 color-this-blue">Business Accounting System</p>
+                        <p class="size-16">Full stack development</p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="background-white">
+                <img src="./images/icst.png" alt="" class="project-card-image">
+                <div class="color-black padding-15-10">
+                    <div class="flex-column">
+                        <p class="size-20 weight-700 color-this-blue">Tech-voc school online registration & enrollment system</p>
+                        <p class="size-16">Full stack development</p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="background-white">
+                <img src="./images/scholarship.png" alt="" class="project-card-image">
+                <div class="color-black padding-15-10">
+                    <div class="flex-column">
+                        <p class="size-20 weight-700 color-this-blue">College Scholarship Management System</p>
+                        <p class="size-16">Full stack development</p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="background-white">
+                <img src="./images/property borrowing.png" alt="" class="project-card-image">
+                <div class="color-black padding-15-10">
+                    <div class="flex-column">
+                        <p class="size-20 weight-700 color-this-blue">College Property Management System</p>
+                        <p class="size-16">Full stack development</p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="background-white">
+                <img src="./images/clearance.png" alt="" class="project-card-image">
+                <div class="color-black padding-15-10">
+                    <div class="flex-column">
+                        <p class="size-20 weight-700 color-this-blue">College Student Online Clearance System</p>
+                        <p class="size-16">Frontend development</p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+
+            <div class="background-white">
+                <img src="./images/enrollment.png" alt="" class="project-card-image">
+                <div class="color-black padding-15-10">
+                    <div class="flex-column">
+                        <p class="size-20 weight-700 color-this-blue">High School Online Enrollment System</p>
+                        <p class="size-16">Frontend development</p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- contact page -->
+    <section id="contact"></section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="page-container background-white padding-top-60 height-auto">
+        <div class="flex-column align-center text-align-center gap-20">
+            <p class="size-32 color-black">Thank you for visiting my simple profile!</p>
+            <div>
+                <p class="color-this-blue size-32 weight-700">Do you have any inquiries?</p>
+                <p class="color-this-blue size-24">Feel free to contact me</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="grid-1fr-1fr gap-30">
+            <div class="border-gray-2px width-fit">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5586.481369184628!2d123.73868459384488!3d8.077104186536127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32544db1860d7457%3A0xe5de979a69a4b2de!2sPILAR%20STORE!5e0!3m2!1sen!2sph!4v1708260568444!5m2!1sen!2sph" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="color-black flex-column justify-space-between">
+                <div class="size-32">
+                    <p>(+63) 981 597 8200</p>
+                    <p>darioalcedric.webdev@gmail.com</p>
+                </div>
+                <div class="flex-row align-center gap-10">
+                    <img src="./images/Facebook-logo.png" alt="" class="medium-image-profile hover-flip ">
+                    <img src="./images/Instagram-logo.png" alt="" class="medium-image-profile hover-flip">
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div class="footer">
+        <p class="size-16">&copy; Copyright i_Devs, 2024 </p>
+        <p class="size-16">All Rights Reserved</p>
+        <p class="size-16">Al Cedric V Dario, i_Devs Web Development Services</p>
+    </div>
+    
+</body>
+
+</html>
